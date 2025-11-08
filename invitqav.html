@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Quinceañera Shanira Shantal</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #B2EBF2; /* Celeste pastel */
+            color: #333;
+        }
+
+        header {
+            background: url('https://iili.io/KDOGw3F.jpg') no-repeat center center/cover;
+            height: 100vh;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            display: none;
+            opacity: 0;
+            transition: opacity 1s ease;
+            background-color: #ffffff;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: #6a5acd;
+            margin-bottom: 15px;
+        }
+
+        .message {
+            font-size: 1.1rem;
+            color: #333;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        /* Botones con fondo celeste pastel y texto que cambia de color */
+        .button {
+            display: block;
+            width: 220px;
+            margin: 20px auto;
+            padding: 15px;
+            text-align: center;
+            background-color: #B2EBF2; /* Celeste pastel */
+            color: #333; /* Texto oscuro */
+            font-size: 1.2rem;
+            border-radius: 25px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            background-color: #81D4FA; /* Un tono un poco más oscuro de celeste */
+            color: #6a5acd; /* Cambiar color de texto a morado */
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        footer {
+            background-color: #6a5acd;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .show-invitation {
+            display: block;
+            opacity: 1;
+        }
+
+        .castle {
+            animation: openCastle 3s forwards;
+        }
+
+        @keyframes openCastle {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .names-section {
+            background-color: #B2EBF2; /* Celeste pastel */
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .names-section h3 {
+            color: #6a5acd;
+            font-size: 1.8rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .names-section p {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .button {
+                width: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="display:none;">
+        <iframe 
+            src="https://www.youtube.com/embed/j3ObHjm1fAE?autoplay=1&loop=1&playlist=j3ObHjm1fAE" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <header>
+        <h1>¡Bienvenidos a mi fiesta de Quinceaños!</h1>
+        <div class="castle">
+            <img src="https://iili.io/KDOGw3F.jpg" alt="Castillo" width="100%">
+        </div>
+        <a href="#invitation" class="button" onclick="openInvitation()">Presiona aquí para abrir la invitación</a>
+    </header>
+
+    <section id="invitation" class="container">
+        <h2 class="section-title">Invitación</h2>
+        <p class="message">
+            ¡Hola! Soy Shanira Shantal y me gustaría invitarte a celebrar mis 15 años. Les doy las gracias a Dios y a mis padres por concederme la ilusión más grande de mi vida, y a ustedes por compartir conmigo este día significativo e inolvidable para mí.
+        </p>
+        <p class="message">
+            ¡MIS 15 AÑOS!<br><br>
+            En compañía de mis queridos: [Papás y Padrinos].
+        </p>
+
+        <!-- Sección de los Papás y Padrinos -->
+        <div class="names-section">
+            <h3>¡Con el amor de mis Papás y Padrinos!</h3>
+            <p><strong>Papás:</strong><br>
+                Anderson Gutierrez Bocanegra<br>
+                Katerin Enciso Marquez
+            </p>
+            <p><strong>Padrinos:</strong><br>
+                Stefany Sanchez Enciso<br>
+                Yeferson Gutierrez Bocanegra<br>
+                Jerson Estrada <!-- Nuevo padrino agregado -->
+            </p>
+        </div>
+
+        <h2 class="section-title">Detalles del Evento</h2>
+        <p class="message">
+            Fecha y hora del evento: Sábado 20 de diciembre, 09:00 PM<br>
+            Lugar de la ceremonia y fiesta: Salón de Recepciones “Anali”<br>
+            Mz. A Lt. 11 San Lorenzo, La Colca - Carabayllo<br>
+            Código de vestimenta: Sport Elegante
+        </p>
+        <p class="message">
+            Para confirmar asistencia o realizar consultas, puedes comunicarte al siguiente número: <strong>+51988899790</strong>
+        </p>
+        <a href="#confirm" class="button" onclick="showForm()">Confirmar Asistencia</a>
+    </section>
+
+    <section id="confirm" class="container">
+        <h2 class="section-title">Confirmación de Asistencia</h2>
+        <div class="form-container">
+            <form action="https://wa.me/51988899790?text=Confirmación%20de%20asistencia" method="get" target="_blank">
+                <label for="name">Nombre completo:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="guests">Número de acompañantes:</label>
+                <input type="number" id="guests" name="guests" required>
+
+                <label for="message">Mensaje opcional:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit" class="button">Enviar Confirmación</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Shanira Shantal. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function openInvitation() {
+            document.getElementById('invitation').classList.add('show-invitation');
+        }
+
+        function showForm() {
+            document.getElementById('confirm').classList.add('show-invitation');
+        }
+    </script>
+</body>
+</html>
